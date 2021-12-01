@@ -1,0 +1,113 @@
+.PreFooter {
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.PreFooter > div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66, 66, 66, 0.865);
+    cursor: pointer;
+}
+
+.PreFooter > div:hover .fas {
+    color: rgb(34, 34, 34);
+}
+
+.PreFooter > div:hover p {
+    color: rgb(19, 18, 18);
+}
+
+.PreFooter .fas {
+    transform: scale(2) translateY(-0.2vmax);
+    color: rgba(37, 37, 37, 0.322);
+    margin: 2vmax;
+}
+
+/* *********** PreFooter 2 *********** */
+
+.PreFooter2 {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.PreFooter2 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PreFooter2 > div > p {
+    color: rgba(0, 0, 0, 0.643);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 1.3vmax;
+    width: 18vmax;
+    margin: 0%;
+    font-weight: 800;
+}
+
+.PreFooter2 > div > span {
+    color: rgba(51, 51, 51, 0.832);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+
+.PreFooter2 > div > div > input {
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: rgb(255, 255, 255);
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+
+.PreFooter2 > div > div > button {
+    border: none;
+    padding: 0.5vmax;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.PreFooter2 > div > div {
+    border: 1px solid rgba(126, 126, 126, 0.5);
+}
+
+.PreFooter2 > div:nth-child(2) > span {
+    width: 22vmax;
+}
+
+.PreFooter2 > div:nth-child(3) {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.PreFooter2 > div:nth-child(3) > p {
+    width: 14vmax;
+}
+
+.PreFooter2 > div:nth-child(3) > span {
+    width: 14vmax;
+}
+
+.PreFooter2 > div:nth-child(4) {
+    flex-direction: row;
+}
+
+.PreFooter2 > div:nth-child(4) > i {
+    cursor: pointer;
+    margin: 1vmax;
+    font-size: 1.1rem;
+    color: rgba(138, 138, 138, 0.7);
+}
+
+.PreFooter2 > div:nth-child(4) > i:hover {
+    color: rgb(94, 94, 94);
+}
