@@ -11,7 +11,7 @@ const HotAccessoriesMenu = () => {
             <Link className="HotAccessoriesLink" to="/smartDevice">
                 Smart Devices
             </Link>
-            <Link className="HotAccessoriesLink" to="/home">
+            <Link className="HotAccessoriesLink" to="/Home">
                 Home
             </Link>
             <Link className="HotAccessoriesLink" to="/lifeStyle">

@@ -62,7 +62,7 @@ function App() {
                     ></Route>
                     <Route
                         exact
-                        path="/home"
+                        path="/Home"
                         element={
                             <HotAccessories
                                 home={data.hotAccessories.home}
